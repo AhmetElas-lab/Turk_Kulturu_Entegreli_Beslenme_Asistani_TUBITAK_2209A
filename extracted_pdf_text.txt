@@ -1,0 +1,662 @@
+
+=== PAGE 1 ===
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TÜBİTAK 2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA 
+PROJELERİ DESTEKLEME PROGRAMI 
+ 
+Başvuru formunun Arial 9 yazı tipinde, her bir konu başlığı altında verilen açıklamalar göz önünde 
+bulundurularak hazırlanması ve ekler hariç toplam 20 sayfayı geçmemesi beklenir (Alt sınır 
+bulunmamaktadır). Değerlendirme araştırma önerisinin bilimsel niteliği, yöntemi, proje yönetimi ve yaygın 
+etkisi başlıkları üzerinden yapılacaktır. 
+ 
+ARAŞTIRMA ÖNERİSİ FORMU 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2025 Yılı 
+1. Dönem Başvurusu 
+
+=== PAGE 2 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+2 
+ 
+ 
+ 
+ 
+A. GENEL BİLGİLER 
+ 
+Başvuru Sahibinin Adı Soyadı: Yağmur SAYIN 
+Araştırma Önerisinin Başlığı: Türk Kültürü Entegreli Beslenme Asistanı Yapay Zekâ Modülü 
+Danışmanın Adı Soyadı: Doç. Dr. Ferhat UÇAR 
+Araştırmanın Yürütüleceği Kurum/Kuruluş: Fırat Üniversitesi 
+ 
+ 
+ÖZET 
+ 
+Araştırma önerisi özetinin (1) bilimsel nitelik; (2) yöntem; (3) proje yönetimi ve (4) yaygın etki hakkında bilgileri 
+kapsaması beklenir. Bu bölümün en son yazılması önerilir. 
+ 
+Özet 
+ 
+a) Bilimsel Nitelik 
+ 
+Vücut; sistemlerinin işlemesi, organların çalışması ve günlük aktivitelerin yerine getirilmesi için enerjiye ihtiyaç 
+duymaktadır. Aynı zamanda, yeni dokuların veya hücrelerin sentezlenmesinde ve hücrelerde hasar 
+oluştuğunda onarılması için de belirli besin bileşenlerine ihtiyaç vardır. Bu nedenle, vücudun ihtiyaç duyduğu 
+enerji ve besin bileşenlerinin karşılanması dengeli ve düzenli bir beslenme alışkanlığıyla mümkündür. 
+Bu proje, Türkiye vatandaşları için kültürel uyuma sahip yapay zekâ destekli bir beslenme planlama prototipi 
+geliştirmeyi amaçlamaktadır. Mevcut küresel uygulamalarda Türk mutfağının ölçü birimleri (“bir çimdik”, “göz 
+kararı”) ve porsiyon belirsizlikleri dikkate alınmadığından, kullanıcılar kendi kültürel alışkanlıklarına 
+yabancılaşmaktadır. Araştırma hipotezi, Kültürel Gıda Veri Tabanı (H1), Doğal Dil İşleme (NLP) modülü (H2) ve Görüntü 
+İşleme (CV) modülü (H3) ile güçlendirilmiş kültür-odaklı planlama motorunun (H4), Türk mutfağı yemeklerinin kalori 
+takibinde mevcut küresel uygulamalara kıyasla daha düşük Ortalama Mutlak Yüzde Hatası (MAPE) ve daha 
+yüksek kullanıcı bağlılığı sağlayacağını öngörmektedir. Proje sonunda kültürel gıda verisi, dil analizi ve görsel 
+porsiyon tahminini bütünleştiren yapay zekâ tabanlı bir web prototipi geliştirilecek; sağlıklı beslenme 
+alışkanlıklarının kültürel uyumla kalıcı hale getirilmesi hedeflenecektir. 
+ 
+b) Yöntem 
+ 
+Bu proje, Türk mutfağına ait yemek verilerini temel alarak yapay zekâ destekli bir beslenme planlama 
+uygulaması geliştirmeyi hedefleyen deneysel ve uygulamalı bir araştırmadır. İlk aşamada TÜRKOMP ve akademik 
+kaynaklardan alınan verilerle Kültürel Gıda Veri Tabanı oluşturulacaktır. İkinci aşamada, serbest metin biçiminde 
+yazılmış tarifleri analiz ederek “bir çimdik tuz”, “bir tutam maydanoz” gibi ifadeleri standart 
+gramajlara çevirebilen bir Doğal Dil İşleme (NLP) modülü geliştirilecektir. Üçüncü aşamada, “tencere yemekleri” gibi 
+hacim tahmini zor yemeklerin 2D görüntülerinden porsiyon ve kalori değeri tahmini yapabilen bir Bilgisayarlı 
+Görü (CV) modülü tasarlanacaktır. Model performansı MAPE ve F1 skorlarıyla değerlendirilecek, 
+modüller Flask veya FastAPI tabanlı web arayüzünde bütünleştirilecektir. Sistem sonunda kültürel tarif dilini anlayan, 
+görsel porsiyon tahmini yapabilen ve kişiselleştirilmiş beslenme planı önerebilen bir yapay zekâ asistanına 
+dönüştürülecektir. 
+ 
+c) Proje Yönetimi 
+ 
+Proje, yazılım mühendisliği, yapay zekâ ve veri biliminde yetkin bir öğrenci ekibi tarafından yürütülecektir. 
+Akademik danışman, yapay zekâ alanında uzman olup, proje sürecinde teknik doğrulama ve model performans 
+değerlendirmelerinde destek sağlayacaktır. Ayrıca, TÜRKOMP ve ilgili akademik veri kaynaklarıyla iş birliği 
+yapılacaktır. 
+ 
+d) Yaygın Etki 
+ 
+Bu proje, Türkiye’de kültürel mutfak alışkanlıklarına uygun yapay zekâ tabanlı beslenme planlama modelini 
+ortaya koyarak hem akademik hem toplumsal ölçekte yenilikçi bir katkı sunacaktır. Kullanıcıların geleneksel 
+tarifleriyle sağlıklı beslenme arasında köprü kuracak bu proje fikri, sağlıklı yaşamın sürdürülebilirliğini sağlayacak 
+ve Türkiye’nin gastronomik mirasının dijitalleştirilmesine öncülük edecektir. 
+Anahtar Kelimeler: Yapay Zekâ, Sağlıklı Beslenme, Türk Mutfağı 
+
+=== PAGE 3 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+3 
+ 
+ 
+ 
+1. ARAŞTIRMA ÖNERİSİNİN BİLİMSEL NİTELİĞİ 
+1.1. Konunun Önemi ve Araştırma Önerisinin Bilimsel Niteliği 
+ 
+Araştırma önerisinde ele alınan konunun kapsamı, sınırları ve önemi ortaya konulur. Araştırma önerisi 
+kapsamında yapılacak çalışmalarla literatürdeki hangi eksikliğin nasıl giderileceği veya hangi soruna nasıl  bir 
+çözüm getirileceği ilgili literatüre atıfla açıklanarak araştırma önerisinin bilimsel niteliği ortaya konulur. Araştırma 
+sorusu ve varsa hipotez (ler)i tanımlanır. 
+Projenin konusu, 12. Kalkınma Planı ve 2030 Sanayi ve Teknoloji Stratejisi’nde yer alan kritik teknoloji alanları ile 
+öncelikli Ar -Ge ve yenilik konuları ile ilişkili ise, i lişkilendirilme sebebi ve ilgili alana sağlayacağı yararlar 
+açıklanmalıdır. 
+ 
+ 
+Vücut; sistemlerinin işlemesi, organların çalışması ve günlük aktivitelerin yerine getirebilmesi için enerjiye ihtiyaç 
+duymaktadır. Aynı zamanda, yeni dokuların veya hücrelerin sentezlenmesinde ve hücrelerde hasar oluştuğunda 
+onarılması için de belirli besin bileşenlerine ihtiyaç duymaktadır. Bu nedenle, vücudun ihtiyaç duyduğu enerji ve 
+besin bileşenlerinin karşılanması, dengeli ve düzenli bir beslenme alışkanlığıyla mümkündür. Beslenme; sağlığı 
+korumak, geliştirmek ve yaşam kalitesini yükseltmek için vücudun gereksinimi olan besin öğelerini yeterli 
+miktarlarda ve uygun zamanlarda almak için bilinçli yapılması gereken bir davranıştır[1]. 
+Sağlıklı beslenme, besinlerden zevk alma, çeşitli ve dengeli beslenme, besin ögelerinin gereksinimi karşılayacak 
+şekilde alınması, yeterli hidrasyonun sağlanması ve ideal vücut ağırlığının sürdürülmesini içerir. Makro ve mikro 
+besin ögelerinin dengeli alımı önemlidir; örneğin, karbonhidratlar temel enerji kaynağıdır, proteinler vücut gelişimi 
+ve onarımı için gereklidir, yağlar hücresel fonksiyonlar için önemlidir. Ayrıca, mikro besin öğeleri olan vitaminler ve 
+minerallerin yeterli alımı sağlığın korunması için gereklidir[2]. 
+Dünya Sağlık Örgütü (WHO), Vücut Kitle İndeksi (VKİ) 25 veya daha yüksek olanlar olarak tanımlanan aşırı kilolu 
+yetişkinlerin küresel yaygınlığının %38,9 olduğunu tahmin etmektedir. Bu istatistikler, beslenme, diyet tavsiyesi ve 
+değerlendirmesine uygulanan hesaplamalı sistemler içinde titiz beslenme standartları oluşturmanın kritik ihtiyacını 
+vurgulamaktadır. İşte bu noktada, bireylerin sağlıklı alışkanlıkları günlük rutinlerine entegre etmelerine yardımcı 
+olmak için hesaplamalı bir yaklaşım olarak sağlık bilincine sahip gıda önerisi sistemleri ortaya çıkmaktadır. 
+ChatGPT gibi büyük dil modelleri (LLM'ler), gibi kaynakların erişilebilirliği ve çevrimiçi 
+kullanılabilirliği, bireylerin yiyecek, yemek pişirme ve beslenmeyle ilgili önerilere ilişkin sorgularını bu 
+kaynaklardan kullanmalarını sağlamıştır . Ayrıca, öneri sistemlerinde son zamanlarda önemli bir ilgi görmüş ve 
+performanslarını artırmak ve öneri sistemlerinin kullanıcılarla iletişimini artırmak için umut verici bir araç 
+sunmuştur[3]. 
+Buna karşın, beslenmenin bir ihtiyaç olmasının ötesinde kültürel ve sosyal bir bağlam tarafından şekillenen bir olgu 
+olduğu dikkate alınmalıdır. Nitekim beslenme alışkanlıkları, bireyin içinde yaşadığı kültürün, coğrafyanın ve 
+geleneklerin ayrılmaz bir parçasıdır. Zira hali hazırda olan beslenme uygulamalarının (MyFitnessPal, Yazio, vb.) 
+çoğunluğu, küresel pazar hedeflenerek geliştirildiği için, genellikle Türk mutfağından uzak beslenme alışkanlıklarını 
+temel almaktadır. Mevcut popüler beslenme uygulamalarında kullanılan gramaj hesaplaması ile Türk 
+mutfağındaki geleneksel yöntemler (“göz kararı”,” bir çimdik”) arasındaki tutarsızlıklar, özellikle yerel ve ev yapımı 
+tariflerin hesaplanmasını zorlaştırmaktadır. Buna benzer olarak; porsiyon tahminindeki belirsizlik (bir porsiyon 
+karnıyarık gibi), yemeklerin kalori tahmin hatasının başlıca kaynağıdır. [4] Bu gibi eksiklikleri göz önünde 
+bulundurulduğunda kullanıcılar, yerel mutfakların zenginliğini ve çeşitliliğini göz ardı ederek, kendi kültürel damak 
+tatlarına yabancı beslenme alışkanlıkları uygulamak zorunda kalmaktadırlar. Bir beslenme asistanının 
+başarısındaki en önemli faktör 'sürdürülebilirlik' iken, bu kültürel uyuşmazlık, motivasyon kaybına ve programların 
+yarıda bırakılmasına yol açmaktadır. 
+ 
+ 
+Araştırma Sorusu ve Hipotezi 
+ 
+Resmi kaynaklarla doğrulanmış yerli kültüre uygun bir beslenme ve gıda veri tabanı kullanarak serbest metinli 
+tarifleri analiz eden bir NLP modeli ve 2D görüntüden “tencere yemeği porsiyonunu” tahmin eden bir CV modeli 
+ile eğitilmiş kültür odaklı bir yapay zekâ asistanı, Türkiye vatandaşları için Batı odaklı mevcut beslenme 
+asistanlarına ve mobil uygulamalarına kıyasla daha yüksek sürdürülebilirliği ve daha doğru kalori takibi sağlayan bir 
+beslenme prototipi geliştirmek mümkün müdür? 
+=== PAGE 4 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+4 
+ 
+ 
+ 
+Hipotez 
+ 
+Kültürel Gıda Veri tabanı (H1), Doğal Dil İşleme (NLP) tabanlı tarif analiz modülü (H2) ve Görüntü İşleme (CV) 
+destekli porsiyon tahmin modülü (H3) ile güçlendirilmiş kültür -odaklı planlama motorunun (H4), “tencere 
+yemekleri” ve “ev yapımı tarifler” gibi geleneksel gıdaların kalori takibinde, mevcut küresel beslenme ve beslenme 
+uygulamalarına kıyasla istatistiksel olarak anlamlı düzeyde daha düşük Ortalama Mutlak Yüzde Hatası (MAPE) 
+ve daha yüksek kullanıcı bağlılığı (daha düşük terk oranı) sağlayacağı öngörülmektedir. 
+ 
+Bu proje, var olan uygulamaların aksine, kullanıcı tarafından girilen tahmini ve hatalı verilerle (örneğin “1 kap 
+çorba”) çalışmayacaktır. Bunun yerine, Türk mutfağının geniş gastronomik mirası (yöresel tarifler, ev yemekleri, 
+geleneksel tatlılar) temel alan, besin değerleri TÜRKOMP (Ulusal Gıda Kompozisyon Veri Tabanı) gibi akademik 
+ve resmi kaynaklara dayalı olarak doğrulanmış kapsamlı bir veri tabanını temel alacaktır. Bu, Türkiye’deki kullanıcı 
+topluluğu için sunulan en büyük yeniliktir; bu doğrultuda "1 porsiyon kuru fasulye" veya "1 kâse mercimek çorbası" 
+gibi spesifik yerel gıdaların doğru kalori takibinin ilk defa güvenilir bir şekilde yapılmasına olanak sağlayacaktır. 
+ 
+Proje, kullanıcıların sisteme büyük anne tarifi gibi serbest bir formatta girdikleri ev yapımı tarifleri de anlayabilecek 
+ve analiz edebilecektir. Bu amaçla “bir çimdik tuz”, “bir parmak yağ” gibi anlaşılamayan ve yerel kültür dilinde olan 
+Türkçe mutfak terimlerini algılayabilen malzemeleri miktarlarını standart gramajlara çevirebilen bir doğal dil işleme 
+NLP eğitilecektir. Böylece Kültürel Gıda Veri Tabanı da bulunmayan tariflere ilişkin besin değerlerini yüksek bir 
+doğrulukla tahmin edilebilecektir. 
+ 
+Var olan uygulamaların ve yapay zekanın imkânsız olarak tanımladığı “tencere yemeği” porsiyonlaması sorununu 
+çözmek amacıyla projede yenilikçi bir bilgisayarlı görü CV modeli eğitilecektir. Bu model kullanıcının görselini 
+yükleyeceği yemeğin (örneğin 1 tabak karnıyarık(görsel[9]) veya bir kâse çorba) 2D görüntüsünden yemeğin türünü 
+hacmini ve kalori değerini tahmin edecektir[5]. 
+ 
+Geliştirilecek yapay zekâ asistanı, bir 'kalori sayacı' olmakla kalmayacaktır. Kullanıcının hedeflerine (kilo alma, 
+verme, kas kütlesi kazanımı, yağ kütlesi azaltımı), bireyin alerjenlerine ve tercihlerine göre, sadece bu 
+doğrulanmış Türk mutfağı veri tabanını kullanarak kişiselleştirilmiş beslenme planları oluşturacaktır. Model, 
+kullanıcıya 'kinoa salatası' yerine 'zeytinyağlı enginar', 'piyaz veya 'kuru fasulye' gibi kendi mutfağına ait 
+seçeneklerle nasıl dengeli ve sağlıklı beslenebileceğini gösterecektir. 
+Projemizin sunduğu en temel özgünlük, sağlıklı beslenme ve yaşama sürecini bir 'yoksunluk' olmaktan çıkarıp, 
+bireyin sosyal yaşamı ve yeme içme kültürü ile uyumlu hale getirerek sürdürülebilirliği maksimize etmesidir. Bu 
+yaklaşım, sağlıklı beslenme alışkanlıklarının kalıcı hale gelmesini teşvik edecek ayrıca teknolojiyi yerel ihtiyaçlar için 
+erişilebilir kılacaktır. 
+=== PAGE 5 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+5 
+ 
+ 
+ 
+ 
+1.2. Amaç ve Hedefler 
+Araştırma önerisinin amacı ve hedefleri açık, ölçülebilir, gerçekçi ve ulaşılabilir nitelikte olacak şekilde yazılır. 
+ 
+ 
+Bu projenin temel amacı, güncel mobil beslenme uygulamalarının Türk mutfağının yapısıyla ilgili çözmekte 
+yetersiz kaldığı kültürel yabancılık, porsiyonlama hatalarının sebep olduğu sürdürülebilirliğinin olmaması, 
+unutulmaya yüz tutmuş yemek tarifleri ve anlamayı güçleştiren tarif dili gibi sorunlar üzerinde durmaktadır. Bu 
+bağlamda proje, diğer uygulamalara kıyasla kullanıcılarına daha doğru, kişiselleştirilmiş ve kültüre duyarlı beslenme 
+planları sunabilen yapay zekâ tabanlı bir web prototipi geliştirmeyi amaç edinmiştir. 
+Amaca ulaşmak için atılacak ilk adım (H1), TÜRKOMP veri tabanını esas alan, yerel yemeklerimiz için bir veri 
+tabanı oluşturmaktır. Bu aşamada, besin değerleri hesaplanmış, "içli köfte, yağlama” gibi 100’den fazla popüler Türk 
+yemeği tarifini içeren Kültürel Gıda Veri Tabanı oluşturulacaktır. Bu Gıda Veri Tabanı, kültürel yiyeceklerin 
+onaylanmış besin içeriğini sunarak, projenin tüm diğer modüllerine kaynak niteliği taşıyacaktır. 
+İkinci ana hedef (H2) ise, ev ortamında kullanılan, çoğunlukla ölçeksiz ve belirsiz ifadeler içeren tarif dilini 
+anlamlandırmaktır. "Bir çimdik tuz, göz kararı un" gibi kültüre özgü Türkçe ifadeleri anlayıp, malzemeleri, 
+miktarları ve hazırlık adımlarını doğru bir şekilde ayrıştırabilen bir Doğal Dil İşleme (NLP) modülü geliştirilecektir. Bu 
+bağlamda, bir Varlık İsmi Tanıma (NER) modeli eğitilecek ve deneyi yapanlar tarafından seçilen 50 tariften oluşan 
+bir deney seti üzerinde, malzeme ve miktar analizinde minimum %85 F1 skoruna ulaşılması birincil başarı kriteri 
+olarak belirlenmiştir. Bu modül, kullanıcıların evde yaptıkları yemekleri sisteme kolayca dahil etmesini sağlayarak, 
+uygulamanın sürdürülebilirliğini ve kişiselleştirme yönlerine katkıda bulunacaktır. 
+Üçüncü hedef (H3), özellikle tencere yemekleri, sulu yemekler veya karışık salatalar gibi hacim tahmininin zor 
+olduğu Türk mutfağı yemekleri için, 2D jpg ve png görüntüleri üzerinden hacim ve kalori tahmini yapabilen bir 
+Bilgisayarlı Görü (CV) modülü tasarlanacaktır. Bu bağlamda, literatürdeki benzer 2D tahmin çalışmalarını 
+referans almak suretiyle, bir CNN modeli U-Net + MobileNetV3 mimarileri kullanılarak eğitilecek ve bu modelin, 
+bilinen hacim/kütledeki test gıdaları üzerinde Ortalama Mutlak Yüzde Hatasının (MAPE) %25'in altında olması 
+hedeflenmektedir. 
+Dördüncü hedef (H4), bu prototip üzerine inşa edilecek olan Yapay Zekâ Tabanlı Türk Mutfağı Tarif Eşleştirme (ARG) 
+sisteminin tasarlanmasıdır. Bu modül, gıda israfını azaltmak gayesiyle, kullanıcının elindeki kalan malzemeleri (H1 
+ve H2'den gelen verilerle) TÜRKOMP’daki verilerle çaprazlayarak, kültürel uyuma ve diyet kısıtlamalarına uygun, 
+yeni ve uygulanabilir yemek tarifleri önerme yeteneğini kazandıracaktır. 
+Son hedef ise (H5), geliştirilen bu bilimsel modülleri kullanıcıya sunan, pratik ve bütünleşik bir platform 
+oluşturmaktır. Bu platform, kullanıcıların fotoğraf çekerek (H3), tarif girerek (H2) yemek girişi yapabildiği (H1) veya 
+yemek tarifi sorarak (H5) fonksiyonel bir web tabanlı prototip (MVP) altında yekpare hale getirilecektir. 
+Nihayetinde bu proje, kültürel gıda verisi, dil analizi ve görsel porsiyonlama teknolojilerini bir araya getirerek, 
+Türkiye vatandaşlarına özgü beslenme takibi ve planlaması alanında bilimsel ve yenilikçi bir model sunmayı 
+amaçlamaktadır. 
+
+=== PAGE 6 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+6 
+ 
+ 
+ 
+ 
+2. YÖNTEM 
+Araştırmada uygulanacak yöntem ve araştırma tekniklerinin, amaç ve hedeflere ulaşmaya ne düzeyde elverişli 
+olduğu ilgili literatüre atıf yapılarak ortaya konulur. 
+ 
+Yöntem bölümünün; araştırma tasarımı, bağımlı ve bağımsız değişkenler, istatistiksel yöntemler vb. unsurları 
+içermesi gerekir. Araştırma önerisinde herhangi bir ön çalışma veya fizibilite yapıldıysa bunların sunulması beklenir. 
+Araştırma önerisinde sunulan yöntemlerin çalışma takvimi ile ilişkilendirilmesi gerekir. 
+ 
+ 
+ 
+Bu proje, Türk mutfağına ait yemek verilerini temel alarak yapay zekâ destekli bir beslenme planlama 
+uygulaması geliştirmeyi hedefleyen deneysel ve uygulamalı bir araştırmadır. Çalışma süresince üç ana modül 
+geliştirilecektir: Kültürel Gıda Veri Tabanı,Tarif Analizi için Doğal Dil İşleme (NLP) Modülü ve Görüntüden 
+Porsiyon Tahmini için Bilgisayarlı Görü (CV) Modülü. Her modül, proje takvimi doğrultusunda birbirine entegre 
+edilerek nihai sistem oluşturulacaktır. 
+ 
+İlk aşamada, Kültürel Gıda Veri Tabanı oluşturulacaktır. Bu veri tabanı, Türkiye’nin farklı bölgelerine ait 
+geleneksel yemeklerin tariflerini, malzeme listelerini, porsiyon bilgilerini ve besin değerlerini içerecektir. Veriler 
+TÜRKOMP (Ulusal Gıda Kompozisyon Veri Tabanı), Sağlık Bakanlığı Beslenme veri tabanı ve akademik 
+kaynaklardan derlenecektir [6][7]. Geleneksel ölçü birimlerinde (“bir çimdik”, “bir tabak”, “bir kepçe” gibi) ifade 
+edilen tarifler standart gramajlara dönüştürülecektir. Verilerin doğruluğu literatürle karşılaştırılarak kontrol edilecek, 
+eksik veya hatalı bilgiler sistemden çıkarılacaktır. Veri tabanı, ilişkisel (MySQL, PostgreSQL) veya 
+NoSQL (MongoDB) tabanlı olarak yapılandırılacak; verilerin temizlenmesi ve düzenlenmesi Python (Pandas, 
+NumPy) kütüphaneleriyle yapılacaktır. İkinci aşamada, Doğal Dil İşleme (NLP) modülü geliştirilecektir. Bu modül, 
+kullanıcıların serbest metin biçiminde yazdığı tarifleri analiz ederek malzemeleri, miktarları ve pişirme biçimlerini 
+tespit edecektir. Türk mutfak terminolojisine özgü ifadeleri (“göz kararaı yağ”, “bir tutam maydanoz”) 
+algılayabilen bir model oluşturulacaktır. Bunun için Python dilinde spaCy ve NLTK kütüphaneleri kullanılacaktır. 
+Elde edilen metin verileri, TÜRKOMP’daki standart besin değerleriyle eşleştirilerek toplam kalori ve makro-mikro 
+besin tahminleri yapılacaktır. Modelin performansı doğruluk oranı ve hata payı (MAPE) ölçütleriyle 
+değerlendirilecektir. Üçüncü aşamada, Bilgisayarlı Görü (CV) modülü geliştirilecektir. Bu modül, kullanıcının 
+yüklediği yemek fotoğrafından porsiyonun kalori değerini tahmin edecektir. Görüntü işleme sürecinde OpenCV 
+kütüphanesi, nesne tanıma ve sınıflandırma için ise PyTorch veya TensorFlow tabanlı derin öğrenme modelleri 
+kullanılacaktır. Model, yerel yemeklerin farklı açılardan çekilmiş fotoğraflarıyla eğitilecektir[8].Görsel veriden elde 
+edilen tahminler, TÜRKOMP ve NLP modülünden gelen bilgilerle birleştirilerek en doğru kalori tahmini 
+üretilecektir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                               Görsel  [9] 
+Görseli yüklenen yemeğin kalori hesabının yapılışı.
+
+=== PAGE 7 ===
+2209-A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEKLEME PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[10] Geleneksel Türk kahvaltısının tanımlanması  
+ 
+Modüllerin tamamlanmasının ardından sistemin entegrasyonu ve uygulama geliştirme aşamasına geçilecektir. 
+Uygulamanın arayüzü mobil veya web tabanlı olacak; backend kısmı Python (Flask veya FastAPI) ya da Node.js 
+ile geliştirilecektir. Kullanıcı deneyimini artırmak amacıyla Flutter veya React Native kullanılarak modern bir 
+arayüz tasarımı yapılacaktır. Beta sürüm testleriyle kullanıcı geri bildirimleri toplanacak ve yazılım hataları 
+giderilecektir. 
+ 
+Son aşamada, sistemin performans analizi yapılacaktır. NLP ve CV modüllerinin tahmin doğrulukları MAPE, 
+RMSE ve sınıflandırma başarısı gibi istatistiksel ölçütlerle değerlendirilecektir. Ayrıca kullanıcı bağlılığı, öneri kabul 
+oranı ve diyet planına devam oranı gibi ölçütlerle izlenecektir. Elde edilen veriler anonimleştirilecek ve etik kurallar 
+çerçevesinde analiz edilecektir. Bu yöntem yaklaşımı, yapay zekâ teknolojilerini kültürel verilerle bütünleştirerek 
+hem teknik hem toplumsal açıdan uygulanabilir ve özgün bir beslenme asistanı modeli oluşturmayı 
+hedeflemektedir. 
+=== PAGE 8 ===
+2209/A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEĞİ PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+8 
+ 
+ 
+ 
+ 
+3. PROJE YÖNETİMİ 
+3.1 Çalışma Takvimi 
+ 
+Araştırmada yer alacak başlıca faaliyetler, her bir faaliyetin hangi sürede gerçekleştirileceği, başarı ölçütü ve 
+araştırmanın başarısına katkısı “Çalışma Takvimi” doldurularak sunulur. 
+ÇALIŞMA TAKVİMİ (*) 
+ 
+ 
+Tarih Aralığı 
+ 
+Faaliyetler** Kim(ler) Tarafından Gerçekleştirileceği Başarı Ölçütü ve Araştırmanın Başarısına Katkısı*** 
+ 
+ 
+ 
+ 
+1-3 ay 
+ 
+Literatür taraması 
+yapılarak mevcut 
+diyet uygulamaları 
+incelenecek ve Türk 
+mutfağına özgü 
+yemek verileri 
+toplanacaktır 
+ 
+ 
+ 
+ 
+Ahmet Faruk Elas, Helin 
+Özmen, 
+Projeye başlandığı 
+zamandaki güncel beslenme 
+uygulamalarına ilişkin 
+literatürün incelenmesi, 
+mevcut bilgi birikiminin 
+belirlenmesi, Türk 
+mutfağına ait yemeklerin 
+veri seti hazırlama sürecini 
+oluşturması (%20). 
+ 
+ 
+ 
+4-6 ay 
+Veri seti 
+tamamlanacak, 
+modelin ilk sürümü 
+oluşturulacak ve 
+sistemin temel 
+algoritmaları 
+kodlanacaktır 
+ 
+ 
+Ayşe Deniz, Zeynep Bahar 
+Küçük, Doç. Dr. Ferhat 
+Uçar 
+Türk mutfağının yemek 
+verilerinden oluşturulan veri 
+seti kullanılarak ilk 
+algoritma sürümünün çalışır 
+hale getirilmesi, sistemin 
+temel işlevlerinin test 
+edilebilir hale getirilmesi 
+(%25). 
+ 
+ 
+ 
+7-9 ay 
+Model üzerinde 
+doğruluk testi 
+yapılacak, kullanıcı 
+arayüzü tasarlanacak 
+sonrasında uygulama 
+ön test aşamasına 
+alınacaktır 
+ 
+ 
+ 
+Yağmur Sayın, Ahmet 
+Faruk Elas, Ayşe Deniz 
+Geliştirilen modelin 
+doğruluk oranlarının 
+hedeflenen düzeyde olması, 
+kullanıcı arayüzünün 
+işlevsel olarak hazırlanması 
+ve ön testlerde sistemin 
+sorunsuz ilerlemesinin 
+sağlanması (%25). 
+ 
+ 
+ 
+ 
+ 
+10 -12 ay 
+Sistem performansı 
+değerlendirilecek, 
+kullanıcı geri 
+bildirimleri analiz 
+edilerek gerekli 
+düzeltmeler 
+yapılacak ve son 
+proje raporu 
+hazırlanacaktır. 
+ 
+ 
+ 
+ 
+Zeynep Bahar Küçük, Helin 
+Özmen, Doç. Dr. Ferhat 
+Uçar 
+Kullanıcı test sonuçlarından 
+elde edilen geri dönüşler 
+doğrultusunda uygulamanın 
+iyileştirilmesi, performans 
+optimizasyonunun 
+sağlanması ve projenin 
+sonuç raporunun son 
+şeklinin verilmesi (%30). 
+(*) Çizelgedeki satırlar ve sütunlar gerektiği kadar genişletilebilir ve çoğaltılabilir. 
+(**) Literatür taraması, sonuç raporu hazırlama aşamaları, araştırma sonuçlarının paylaşımı ve malzeme alımı ayrı birer iş 
+adımı olarak gösterilmemelidir.  
+(***) Başarı ölçütü, ölçülebilir ve izlenebilir nitelikte olacak şekilde nicel veya nitel ölçütlerle (ifade, sayı, yüzde, vb.) 
+belirtilir. Bu sütundaki değerlerin toplamı 100 olmalıdır. 
+
+=== PAGE 9 ===
+2209/A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEĞİ PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+9 
+ 
+ 
+ 
+ 
+3.2 Risk Yönetimi 
+Araştırmanın başarısını olumsuz yönde etkileyebilecek riskler ve bu risklerle karşılaşıldığında araştırmanın 
+başarıyla yürütülmesini sağlamak için alınacak tedbirler (B Planı) aşağıdaki Risk Yönetimi Tablosu’nda ifade 
+edilir. B Plan(lar)ının uygulanması araştırmanın temel hedeflerinden sapmaya yol açmamalıdır. B Plan(lar)ına 
+geçilmesi durumunda yöntem değişikliğine gidiliyor ise bu durum detaylandırılmalıdır. 
+RİSK YÖNETİMİ TABLOSU* 
+En Önemli Riskler Alınacak Tedbirler (B Planı) 
+Türk mutfağına ait yemekler verilerinin besin 
+değerleriyle ilgili eksik veya yanlış verilerin 
+modele yansıması 
+Veri doğruluğu TÜBİTAK Beslenme Veri Tabanı, 
+Sağlık Bakanlığı verileri ve akademik besin 
+kaynaklarıyla karşılaştırılacaktır. Eksik veya yanlış 
+veriler sistemden çıkarılarak hazırlanan yeni 
+verilerle güncelleme yapılacaktır. 
+Yapay zekâ modelinin önerilerinde kültürel 
+uygunluk hataları (örnek olarak, Ramazan 
+döneminde uygun olmayan öğün önerileri) 
+Modelin eğitim sürecine “kültürel dönem ve özel 
+gün etiketleri” eklenerek dönemsel farkındalık 
+kazandırılacaktır. Ayrıca beslenme önerileri, Türk 
+kültürüne kabul edilebilirlik bakımından proje ekibi 
+tarafından manuel olarak test edilecektir. 
+ 
+Test sürecinde teknik arızalar veya yazılım 
+hataları 
+Kodlama sürümü düzenli olarak yedeklenecektir. 
+Her test sonrası sistem günlükleri analiz edilerek 
+hata kayıtları değerlendirilecektir. Proje ekibinden 
+bir üye hata analizi ve çözümünden sorumlu 
+olacaktır. Gerektiğinde alternatif sunucu veya cihaz 
+seçenekleri kullanılacaktır. 
+(*) Tablodaki satırlar gerektiği kadar genişletilebilir ve çoğaltılabilir. 
+ 
+ 
+3.3.Araştırma Olanakları 
+Bu bölümde projenin yürütüleceği kurum ve kuruluşlarda var olan ve projede kullanılacak olan altyapı/ekipman 
+(laboratuvar, araç, makine-teçhizat, vb.) olanakları belirtilir. 
+ARAŞTIRMA OLANAKLARI TABLOSU (*) 
+ 
+Kuruluşta Bulunan Altyapı/Ekipman Türü, 
+Modeli 
+(Laboratuvar, Araç, Makine-Teçhizat, vb.) 
+ 
+Projede Kullanım Amacı 
+Fırat Üniversitesi Yazılım Mühendisliği 
+Laboratuvarı 
+Doç. Dr. Ferhat Uçar’ın kişisel araştırma altyapısı 
+ve donanımı 
+Yapay zekâ modelinin geliştirilmesi, veri 
+işleme ve test süreçlerinin yürütülmesi. 
+AI modeli eğitimi ve performans testleri. 
+(*) Tablodaki satırlar gerektiği kadar genişletilebilir ve çoğaltılabilir. 
+
+=== PAGE 10 ===
+2209/A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEĞİ PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+10 
+ 
+ 
+ 
+ 
+4. ARAŞTIRMA ÖNERİSİNİN YAYGIN ETKİSİ 
+Araştırma önerisi kapsamındaki çalışmadan elde edilmesi öngörülen çıktılar amaçlarına göre belirlenen 
+kategorilere ayrılarak belirtilir; ölçülebilir ve gerçekçi hedeflere dayandırılır. 
+ 
+Çıktı, Etki ve Kazanımlar Öngörülen Çıktı(lar), Etki(ler) ve Kazanım(lar) 
+ 
+Bilimsel/Akademik Çıktılar 
+(Ulusal/Uluslararası Makale, Kitap Bölümü, Kitap, 
+Bildiri vb.) 
+ 
+Bu proje sonucunda bir adet sempozyum bildirisi ve bir 
+adet dergi yayının yapılması planlanmaktadır. 
+ 
+Ekonomik/Ticari/Sosyal Çıktılar 
+(Ürün, Prototip, Patent, Faydalı Model, Tescil, 
+Görsel/İşitsel Arşiv, Envanter/Veri Tabanı, Çalıştay,  
+Eğitim, Bilimsel Etkinlik vb.)  
+ 
+Sağlık teknolojileri ve kültürel veri setleri üzerine yeni 
+Ar-Ge projeleri geliştirme potansiyeli 
+ 
+Yeni Proje(ler) Oluşturmasına Yönelik 
+Çıktılar 
+(Ulusal/Uluslararası Yeni Proje vb.) 
+ 
+Türk yemek kültürüne uygun yapay zekâ tabanlı diyet 
+öneri sistemi (mobil prototip) 
+ 
+ 
+ 
+ 
+5. BELİRTMEK İSTEDİĞİNİZ DİĞER KONULAR 
+Sadece araştırma önerisinin değerlendirilmesine katkı sağlayabilecek bilgi/veri (grafik, tablo, vb.) eklenebilir. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Şekil 3. Yapay Zekaya Yemek/Beslenme Sorusu Sıklığı) 
+Son beş yılda yapay zekaya yöneltilen yemek ve beslenme temalı soruların artış eğilimi gözlenmektedir.[11] 
+=== PAGE 11 ===
+2209/A ÜNİVERSİTE ÖĞRENCİLERİ ARAŞTIRMA PROJELERİ DESTEĞİ PROGRAMI 
+ARAŞTIRMA ÖNERİSİ FORMU 
+11 
+ 
+ 
+ 
+ 
+6. EKLER 
+EK-1: KAYNAKLAR 
+ 
+[1] https://hsgm.saglik.gov.tr/tr/beslenme/yeterli-ve-dengeli-beslenme 
+ 
+[2] GÖKTAŞ, Zeynep, and Kübra UÇAR BAŞ. "Sağlıklı Beslenme." Turkiye Klinikleri Family Medicine-Special 
+Topics 16.1 (2025): 12-17. 
+[3] Morales-Garzón, Andrea, et al. "Personalised healthy food text recommendations through fuzzy linguistic 
+variables: A generative AI-based approach." Applied Soft Computing 178 (2025): 113234. 
+[4] Banal, M. G., Bongga, D., Angbengco, J., Amarra, S., & Panlasigui, L. (2024). MyFitnessPal smartphone 
+application: relative validity and intercoder reliability among dietitians in assessing energy and macronutrient 
+intakes of selected Filipino adults with obesity. BMJ Nutrition, Prevention & Health, 7(1). 
+ 
+[5] Chen, Hsin-Chen, et al. "Model-based measurement of food portion size for image-based dietary assessment 
+using 3D/2D registration." Measurement Science and Technology 24.10 (2013): 105701. 
+[6] Kayıkçı, Şafak, Yusuf Başol, and Elanur Dörter. "Classification of turkish cuisine with deep learning on mobile 
+platform." 2019 4th International Conference on Computer Science and Engineering (UBMK). Ieee, 2019. 
+ 
+[7] https://turkomp.tarimorman.gov.tr/main 
+ 
+[8] https://www.python.org , https://opencv.org , https://pytorch.org , https://www.tensorflow.org 
+ 
+[9] Görsel yapay zekâ ile oluşturulmuştur. (GeminiAI) 
+[10] ChatGPT Kullanıcı Eğilimleri Raporu, 2025. 
+[11] Görsel yapay zeka ile oluşturulmuştur.(GeminiAI pro2.5) 
+ 

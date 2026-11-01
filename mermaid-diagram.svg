@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 892.9849999999998 978.7069999999999" width="892.9849999999998" height="978.7069999999999" style="--bg:#18181B;--fg:#F4F4F5;--line:#71717A;--muted:#A1A1AA;--surface:#27272A;--border:#3F3F46;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="Client" data-label="Mobil Uygulama (Flutter)">
+  <rect x="207.1063749999999" y="730.9069999999999" width="586.573" height="181.8" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="207.1063749999999" y="730.9069999999999" width="586.573" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="219.1063749999999" y="744.9069999999999" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Mobil Uygulama (Flutter)</text>
+</g>
+<g class="subgraph" data-id="Server" data-label="FastAPI Backend (Kendi PC'niz)">
+  <rect x="50.04" y="58" width="802.9449999999998" height="618.9069999999999" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="50.04" y="58" width="802.9449999999998" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="62.04" y="72" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">FastAPI Backend (Kendi PC&#39;niz)</text>
+</g>
+<polyline class="edge" data-from="D" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="501.5043749999999,896.7069999999999 501.504375,930.7069999999999 40.04000000000008,930.7069999999999 40.04000000000008,40 467.07349999999997,40 467.0735,102.00000000000006" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M" data-to="Client" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.7289999999999,660.9069999999999 328.7289999999999,718.9069999999999 388.0346249999999,718.9069999999999 388.0346249999999,730.9069999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="N" data-to="Client" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="708.9354999999998,565.507 708.9354999999998,718.9069999999999 398.0346249999999,718.9069999999999 398.0346249999999,730.9069999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="692.2373749999999,811.8069999999999 692.2373749999999,835.8069999999999 501.50437499999987,835.8069999999999 501.50437499999987,859.8069999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="501.50437499999987,811.8069999999999 501.50437499999987,835.8069999999999 501.50437499999987,835.8069999999999 501.50437499999987,859.8069999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="309.6598749999999,811.8069999999999 309.6598749999999,835.8069999999999 501.50437499999987,835.8069999999999 501.50437499999987,859.8069999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Fotoğraf" points="436.32175,194.25525000000005 436.32175,237.007 190.38449999999997,237.007 190.38449999999997,341.307" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="190.38449999999997,378.207 190.38449999999997,429.707" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Metin / Ölçü" points="467.0735,225.00699999999995 467.0734999999999,341.307" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="467.0734999999999,378.207 467.0734999999999,429.707" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Malzemeler" points="497.82525,194.25525 497.82525,237.007 708.9354999999998,237.007 708.9354999999998,341.307" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="190.38449999999997,466.60699999999997 190.38449999999997,497.60699999999997 328.72899999999987,497.60699999999997 328.72899999999987,528.607" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="467.07349999999997,466.60699999999997 467.07349999999997,497.60699999999997 328.72899999999987,497.60699999999997 328.72899999999987,528.607" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="J" data-to="L" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="708.9354999999998,378.207 708.9354999999998,429.707" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="K" data-to="M" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.7289999999999,579.507 328.7289999999999,624.007" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="L" data-to="N" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="708.9354999999998,480.60699999999997 708.9354999999998,528.607" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="E" data-to="F" data-label="Fotoğraf">
+  <rect x="160.8845" y="268.00700000000006" width="58.042" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="189.9055" y="283.15700000000004" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Fotoğraf</text>
+</g>
+<g class="edge-label" data-from="E" data-to="H" data-label="Metin / Ölçü">
+  <rect x="432.0734999999999" y="268.00700000000006" width="69.92200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="467.0344999999999" y="283.15700000000004" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Metin / Ölçü</text>
+</g>
+<g class="edge-label" data-from="E" data-to="J" data-label="Malzemeler">
+  <rect x="672.4354999999998" y="268.00700000000006" width="72.89200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="708.8814999999998" y="283.15700000000004" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Malzemeler</text>
+</g>
+<g class="node" data-id="A" data-label="Kamera / Fotoğraf Çek" data-shape="rectangle">
+  <rect x="606.7953749999999" y="774.9069999999999" width="170.884" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="692.2373749999999" y="793.357" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Kamera / Fotoğraf Çek</text>
+</g>
+<g class="node" data-id="D" data-label="HTTP POST (FastAPI)" data-shape="rectangle">
+  <rect x="415.3213749999999" y="859.8069999999999" width="172.36599999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="501.50437499999987" y="878.257" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">HTTP POST (FastAPI)</text>
+</g>
+<g class="node" data-id="B" data-label="Evdeki Malzemeler" data-shape="rectangle">
+  <rect x="424.21337499999987" y="774.9069999999999" width="154.582" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="501.50437499999987" y="793.357" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Evdeki Malzemeler</text>
+</g>
+<g class="node" data-id="C" data-label="Tüketilen Yemek Metni" data-shape="rectangle">
+  <rect x="223.1063749999999" y="774.9069999999999" width="173.10699999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="309.6598749999999" y="793.357" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Tüketilen Yemek Metni</text>
+</g>
+<g class="node" data-id="E" data-label="İstek Tipi" data-shape="diamond">
+  <polygon points="467.07349999999997,102 528.577,163.5035 467.07349999999997,225.007 405.56999999999994,163.5035" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="467.07349999999997" y="163.5035" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">İstek Tipi</text>
+</g>
+<g class="node" data-id="F" data-label="YOLOv8 / MobileNetV3 (CV Modülü)" data-shape="rectangle">
+  <rect x="66.03999999999999" y="341.307" width="248.68899999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="190.38449999999997" y="359.757" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">YOLOv8 / MobileNetV3 (CV Modülü)</text>
+</g>
+<g class="node" data-id="G" data-label="Yemek Sınıfı + Porsiyon Tahmini" data-shape="rectangle">
+  <rect x="70.1155" y="429.707" width="240.53799999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="190.38449999999997" y="448.157" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Yemek Sınıfı + Porsiyon Tahmini</text>
+</g>
+<g class="node" data-id="H" data-label="LLM / NLP Ayrıştırıcı" data-shape="rectangle">
+  <rect x="375.3329999999999" y="341.307" width="183.481" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="467.0734999999999" y="359.757" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">LLM / NLP Ayrıştırıcı</text>
+</g>
+<g class="node" data-id="I" data-label="Kültürel Ölçü Tablosu (Kepçe-&gt;Gram)" data-shape="rectangle">
+  <rect x="338.65349999999995" y="429.707" width="256.84" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="467.07349999999997" y="448.157" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Kültürel Ölçü Tablosu (Kepçe-&gt;Gram)</text>
+</g>
+<g class="node" data-id="J" data-label="Tarif Arama &amp; RAG Hattı" data-shape="rectangle">
+  <rect x="618.3064999999998" y="341.307" width="181.25799999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="708.9354999999998" y="359.757" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Tarif Arama &amp; RAG Hattı</text>
+</g>
+<g class="node" data-id="K" data-label="TÜRKOMP Besin &amp; Kalori DB" data-shape="cylinder">
+  <rect x="224.3914999999999" y="535.607" width="208.67499999999998" height="36.900000000000006" fill="var(--_node-fill)" stroke="none" />
+  <line x1="224.3914999999999" y1="535.607" x2="224.3914999999999" y2="572.507" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <line x1="433.0664999999999" y1="535.607" x2="433.0664999999999" y2="572.507" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <ellipse cx="328.72899999999987" cy="572.507" rx="104.33749999999999" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <ellipse cx="328.72899999999987" cy="535.607" rx="104.33749999999999" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="328.72899999999987" y="554.057" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">TÜRKOMP Besin &amp; Kalori DB</text>
+</g>
+<g class="node" data-id="L" data-label="Türk Mutfağı Tarif DB" data-shape="cylinder">
+  <rect x="623.4934999999998" y="436.707" width="170.884" height="36.900000000000006" fill="var(--_node-fill)" stroke="none" />
+  <line x1="623.4934999999998" y1="436.707" x2="623.4934999999998" y2="473.60699999999997" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <line x1="794.3774999999998" y1="436.707" x2="794.3774999999998" y2="473.60699999999997" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <ellipse cx="708.9354999999998" cy="473.60699999999997" rx="85.442" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <ellipse cx="708.9354999999998" cy="436.707" rx="85.442" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="708.9354999999998" y="455.157" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Türk Mutfağı Tarif DB</text>
+</g>
+<g class="node" data-id="M" data-label="Besin &amp; Kalori Raporu (JSON)" data-shape="rectangle">
+  <rect x="221.0569999999999" y="624.007" width="215.34399999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="328.72899999999987" y="642.457" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Besin &amp; Kalori Raporu (JSON)</text>
+</g>
+<g class="node" data-id="N" data-label="Kişiselleştirilmiş Tarif Önerisi (JSON)" data-shape="rectangle">
+  <rect x="580.8859999999999" y="528.607" width="256.09899999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="708.9354999999998" y="547.057" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Kişiselleştirilmiş Tarif Önerisi (JSON)</text>
+</g>
+</svg>
